@@ -1,7 +1,0 @@
-FROM devopsedu/webapp
-MAINTAINER Joseph Faye
-RUN apt update
-FROM php:8.0-apache
-WORKDIR /var/www/html
-COPY website website
-EXPOSE 80
